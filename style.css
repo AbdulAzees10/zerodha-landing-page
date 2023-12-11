@@ -1,0 +1,62 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    margin:0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid lightgray;
+}
+
+#logo{
+    width: 100px;
+}
+
+#logo-link{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    list-style-type: none;
+}
+
+ul{
+    padding: 0%;
+    display: flex;
+    justify-content: space-between;
+}
+nav>ul>li>a{
+    padding: 10px;
+}
+#main-img{
+    width: 720px;
+}
+main{
+    display: grid;
+    place-items: center;
+}
+
+
+#signup-btn{
+    background-color: #387ED1;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    border: none;
+    border-radius: 5px;
+    padding: 7.5px 20px;
+}
+#signup-btn:hover{
+    background-color: black;
+}
